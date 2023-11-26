@@ -8,7 +8,8 @@ This Python script utilizes the GeoIP2 library to get information about the geog
     ```bash
     pip install geoip2
     ```
-- Download the GeoLite Database(.mmdb file format) . Refer this _[article](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data)_ from MaxMind.
+- Download the GeoLite Database(.mmdb file format) by referring to this [MaxMind article](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data).
+- In the script, enter the path to the Database file corresponding to `database_path`.
 
 ## Usage
 
