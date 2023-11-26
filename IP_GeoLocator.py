@@ -2,7 +2,7 @@ from geoip2 import database
 
 a=input("Enter the IP address whose Geolocation is to be found: ")
 
-database_path = input("Enter the Database Path: ")
+database_path = "......." 	##Enter the database path 
 
 def get_ip_location(ip_address):
 	reader = database.Reader(database_path)
